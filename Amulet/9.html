@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Astrology &ndash; gorjana</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
+		<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #FF381A;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1.75em;
+	background: #A9D0D6;
+	font-size: 11.5pt;
+	color: #5A6466;
+}
+
+body,input {
+	font-family: Kreon, serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2,h3,h4 {
+	font-family: "Open Sans", sans-serif;
+	color: #2A3436;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 30px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+a {
+	color: #2A3436;
+}
+
+.box {
+	margin: 0 0 50px 0;
+}
+
+#content {
+	padding: 0;
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#footer {
+	padding: 50px 0 80px 0;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
+	color: #587477;
+}
+
+#footer a {
+	color: #587477;
+}
+
+#header {
+	height: 130px;
+	padding: 40px;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	height: 130px;
+	line-height: 130px;
+}
+
+#logo a {
+	color: #2A3436;
+	text-decoration: none;
+}
+
+#logo h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+}
+
+#menu {
+	line-height: 57px;
+	position: absolute;
+	right: 40px;
+	top: 76px;
+	height: 57px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #1C1C1C;
+	font-size: 1.2em;
+}
+
+#menu ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 0 8px 0 8px;
+}
+
+#menu ul li.active {
+	background: #F2EBDE;
+	border: solid 1px #BFB5A4;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+
+#menu ul li.active a {
+	color: #403B31;
+}
+
+#page {
+	margin: 0;
+	position: relative;
+	width: 900px;
+	padding: 20px 40px 0 40px;
+}
+
+#page .section-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#page .section-list li {
+	padding: 25px 0 25px 0;
+	clear: both;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-top: solid 1px #DDD;
+	padding: 10px 0 10px 0;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	padding: 40px 40px 0 40px;
+	color: #302F2C;
+	background: #F2EBDE;
+	position: relative;
+	width: 898px;
+	border-top: solid 1px #BFB5A4;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+
+#page-bottom a {
+	color: #1B1A18;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #3F3D39;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: solid 1px #BAB5AB;
+	padding: 10px 0 10px 0;
+}
+
+#page-bottom ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#page-bottom-content {
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#page-bottom-sidebar {
+	float: left;
+	width: 250px;
+}
+
+#sidebar {
+	position: relative;
+	left: -20px;
+	top: -20px;
+	float: left;
+	width: 240px;
+	background: #EEF5F6;
+	padding: 20px;
+	border: solid 1px #D6E0E2;
+	margin: 0 10px 0 0;
+	text-shadow: 1px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 1px #fff;
+}
+
+#wrapper {
+	width: 978px;
+	position: relative;
+	background: #FFF;
+	margin: 0 auto 0 auto;
+	box-shadow: 0px 0px 150px 0px rgba(0,0,0,0.15);
+	border: solid 1px #82A7AD;
+	border-top: 0;
+}
+			iframe {
+				height: 100vh !important;
+			}
+		</style>
+	</head>
+	<body>
+		<script src=""></script><span id="span">
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo">
+					<h1><a href="#">Welcome to Jewelry</a></h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="#">Homepage</a></li>
+						<li><a href="contact.html">Contacts</a></li>
+						<li><a href="privacy-policy.html">Privacy policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="page">
+				<div id="sidebar" style="width: fit-content;">
+					<div class="box">
+						<p>
+							<img src="img/02e0f7f79f5c64ddcfdfd98faf96ffbd.jpg" alt="" style="width: 315px;">
+						</p>
+					</div>
+					
+				</div>
+				<div id="content">
+					<p> California Fine - New Fine Jewelry Collection Is Here </p> <p> Free 2 Day Shipping On Orders Over $200 </p> <p> Complimentary Gift Wrap Available </p> <p> California Fine - New Fine Jewelry Collection Is Here </p> <p> Free 2 Day Shipping On Orders Over $200 </p> <p> Complimentary Gift Wrap Available </p> <span> </span> <span> </span> <span> </span> Search Shop<span> </span> <h4> New Arrivals </h4> <h4> Venice Layering Set </h4> <h4> Butterfly Totem Necklace </h4> <span> Browse by Type</span> The Fine Collection Necklaces Earrings Bracelets Rings Charms Accessories <strong> Shop All</strong> <span> Browse by Metal</span> Gold Rose Gold Silver <span> Browse by Campaign</span> Fine Jewelry Catalog Collections<span> </span> <h4> New Arrivals </h4> <h4> Parker Collection </h4> <h4> Best Sellers </h4> <span> Jewelry with <br> Intention</span> The Fine Collection Astrology Birthstones Power <br> Gemstones Everyday Essentials <strong> View All</strong> <span> Browse Gifts</span> Best Sellers Engravable Gifts Under $100 3 for $98 Gift Cards <span> Browse Layered Sets</span> Layered Sets Intention Packs Charm Bundles More<span> </span> <h4> About gorjana </h4> <h4> G's journal </h4> <h4> Stores </h4> <span> Community</span> Brand Story Charity Press Give $20, Get $20 <span> Contact</span> Contact Us Virtual Styling FAQ <span> Retail Stores</span> Store Locator Retail Safety practices Account Search New Arrivals<span> </span> <h4> Parker Gem Necklaces </h4> <h4> Totem Necklaces </h4> <h4> The Fine Collection </h4> <h4> Rebel Necklace </h4> <h4> Venice Layering Set </h4> <h4> <strong> Shop All New</strong> </h4> Best Sellers<span> </span> <h4> Parker Necklace </h4> <h4> Venice Necklace </h4> <h4> Wilder Necklace </h4> <h4> Compass Coin Necklace </h4> <h4> <strong> Shop All Best Sellers</strong> </h4> Jewelry<span> </span> <span> Shop by Type</span> Fine Jewelry Necklaces Earrings Bracelets Rings Charms Accessories <span> Shop by Metal</span> Gold Rose Gold Silver Shop All Gifts<span> </span> <h4> Engravable </h4> <h4> Gifts Under $100 </h4> <h4> 3 for $98 </h4> <h4> Birthday Layering Sets </h4> <h4> Gift Cards </h4> Collections<span> </span> <h4> The Fine Collection </h4> <h4> Layered Sets </h4> <h4> Astrology </h4> <h4> Birthstones </h4> <h4> Power Gemstones </h4> <h4> Charm Bundles </h4> <h4> Single Studs </h4> <h4> Everyday Essentials </h4> Stores<span> </span> <h4> Store locator </h4> <h4> Retail Safety practices </h4> More<span> </span> <h4> Contact Us </h4> <h4> G's Journal </h4> <h4> Brand Story </h4> <h4> Virtual Styling </h4> <h4> Charity </h4> Fine Jewelry Catalog Give $20, Get $20 Account <span> 0</span> <span> <i> </i> </span> <h4> Continue Shopping</h4> **Gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**Silver//#c4c4c4//#e0e0e0//rgba(0,0,0,0)**Rose Gold//#d6b7a2//#f6d4bb//rgba(0,0,0,0)**Lapis//#0e3989//#3e66b0//rgba(0,0,0,0)**Howlite//#c3bebe//#f3ecec//rgba(0,0,0,0)**Labradorite//#8a8d6c//#ae9250//rgba(0,0,0,0)**Green Turquoise//#98e6be//#8bc8a9//rgba(0,0,0,0)**Garnet//#891212//#8e6464//rgba(0,0,0,0)**Amethyst//#a36ae0//#a87ab1//rgba(0,0,0,0)**Aquamarine//#9fdbdb//#c6e8e1//rgba(0,0,0,0)**Diamond//#e9e9e9//#fafafa//rgba(0,0,0,0)**Ruby//#b35656//#9a1313//rgba(0,0,0,0)**Peridot//#d2e3bf//#afc083//rgba(0,0,0,0)**Emerald//#4d7c21//#91a75a//rgba(0,0,0,0)**Pearl//#fafafa//#ededed//rgba(0,0,0,0)**Sapphire//#27316d//#2624b6//rgba(0,0,0,0)**Pink Tourmaline//#f8d0e0//#e1b2b7//rgba(0,0,0,0)**Blue Topaz//#3b73b6//#80a9db//rgba(0,0,0,0)**Citrine//#f7bf3d//#e5aa20//rgba(0,0,0,0)**Turquoise//#8bc8c3//#71dde1//rgba(0,0,0,0)**Rose Quartz//#eecfda//#fce2eb//rgba(0,0,0,0)**Black Onyx//#000000//#444343//rgba(0,0,0,0)**Pyrite//#9a8452//#c8ba98//rgba(0,0,0,0)**Apatite//#0582bb//#0b9590//rgba(0,0,0,0)**Russian Amazonite//#58950b//#98e6be//rgba(0,0,0,0)**Aventurine//#c6e89c//#a0c277//rgba(0,0,0,0)**Snowflake Obsidian//#ffffff//#000000//rgba(0,0,0,0)**Pink Jade//#e5178f//#ca2d70//rgba(0,0,0,0)**Smoky Quartz//#795339//#818181//rgba(0,0,0,0)**Pink Coral//#ff4b6e//#f77e13//rgba(0,0,0,0)**Orange Agate//#db4805//#d96f50//rgba(0,0,0,0)**White Opalite//#ffffff//#f3fce8//rgba(0,0,0,0)**White//#ffffff//#f3f3f3//rgba(0,0,0,0)**White CZ//#f0f0f0//#f4f8f7//rgba(0,0,0,0)**Black//#000000//#3f3838//rgba(0,0,0,0)**Rhodochrosite//#f5cccc//#e8dede//rgba(0,0,0,0)**Crystal Quartz//#f3f0f0//#ffffff//rgba(0,0,0,0)**Iolite//#ced3de//#597fac//rgba(0,0,0,0)**Blue Lace Agate//#c8e7ee//#ebebeb//rgba(0,0,0,0)**Pearlized Tan//#f5e9d6//#deb4b4//rgba(0,0,0,0)**Pearlized Blush//#eed2d2//#deb4b4//rgba(0,0,0,0)**Pearlized Grey//#979696//#9ebdc6//rgba(0,0,0,0)**Pearlized Black//#000000//#535353//rgba(0,0,0,0)**Pearlized Navy//#19217b//#424d6c//rgba(0,0,0,0)**Amazonite//#b6e3cc//#add5d9//rgba(0,0,0,0)**Malachite//#008a75//#0e695b//rgba(0,0,0,0)**Mother of Pearl//#f3cfbd//#fff1ea//rgba(0,0,0,0)**Violet//#8d34eb//#a87ab1//rgba(0,0,0,0)**Red//#e32c2b//#891212//rgba(0,0,0,0)**Orange//#ee7e41//#eb9a29//rgba(0,0,0,0)**Blue//#4cc2e6//#3196db//rgba(0,0,0,0)**Green//#129d6c//#13cd8c//rgba(0,0,0,0)**Yellow//#f2da19//#f7e234//rgba(0,0,0,0)**Indigo//#474d83//#464c83//rgba(0,0,0,0)**Teal//#4ecdc3//#0ce0f2//rgba(0,0,0,0)**Berry//#ee3e89//#c07b85//rgba(0,0,0,0)**Black Glass//#0a0808//#4e4949//rgba(0,0,0,0)**Opalite//#f3f2f2//#f0f0e0//rgba(0,0,0,0)**Black Enamel//#000000//#000000//rgba(0,0,0,0)**Ivory Pearlized Enamel//#eee6e6//#fff//rgba(0,0,0,0)**Black Labradorite//#322525//#aeaeae//rgba(0,0,0,0)**Mixed Crystal//#ff64c5//#60d7ed//rgba(0,0,0,0)**Iridescent Crystal//#eed4fa//#ffffff//rgba(0,0,0,0)**Montana Crystal / White CZ//#5f8bf2//#ffffff//rgba(0,0,0,0)**Mixed Crystal / White CZ//#f08ff2//#69bae6//rgba(0,0,0,0)**Fuschia Crystal//#f146f3//#f362f0//rgba(0,0,0,0)**Sapphire Crystal//#3457f5//#356cb9//rgba(0,0,0,0)**White CZ & Fuchsia/Navy Ombre Glass//#680b28//#0e3989//rgba(0,0,0,0)**Gratitude//#7c7d65//#1b40a3//#b5bfcf**Manifest//#989a84//#282d31//#e6e8e6**Serenity//#d2c8c7//#9880a2//#dcdedc**Serene//#d2c8c7//#9880a2//#dcdedc**Manifestation//#989a84//#282d31//#e6e8e6**All//#1b40a3//#282d31//#9880a2**Blush Mix Enamel//#e3c5bc//#c79ea3//rgba(0,0,0,0)**Teal Mix Enamel//#59a28f//#86c3e0//rgba(0,0,0,0)**Black Mix Enamel//#0a0a0a//#c1b4ad//rgba(0,0,0,0)**Blush Enamel//#c18f90//#c7a0a1//rgba(0,0,0,0)**Teal Enamel//#45b1d5//#50add3//rgba(0,0,0,0)**Black Picasso Jasper//#fff//#050505//rgba(0,0,0,0)**Green Turquoise//#98e6be//#8bc8a9//rgba(0,0,0,0)**London Blue Nanogem//#5f8fb6//#446c8c//rgba(0,0,0,0)**Blush Mixed String//#e3c5bc//#c79ea3//rgba(0,0,0,0)**Blue Mixed String//#59a28f//#86c3e0//rgba(0,0,0,0)**White CZ / London Blue Nanogem//#ffffff//#5f8bf2//rgba(0,0,0,0)**14k gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**18k gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**14k rose gold//#d6b7a2//#f6d4bb//rgba(0,0,0,0)**Natural Agate//#e0c4a7//#fdefd2//rgba(0,0,0,0)**Opalite Glass//#d0c6c6//#f0eedf//rgba(0,0,0,0)**Mixed//#cacaca//#dec59e//#e8c2a5**Creme Enamel//#e8e5db//#e8e5db//rgba(0,0,0,0)**Pink Enamel//#f899bb//#fba8c3//rgba(0,0,0,0)**Turquoise Enamel//#6bc7d1//#92d4dd//rgba(0,0,0,0)**Orange Mix//#ff9c9f//#efd5c6//#eff19f**Pink Mix//#ede0de//#ecc8b4//#dd9570**Turquoise Mix//#36a6bf//#bace9c//#a8dbe6**Black Mix//#322c2c//#ffffff//#a2998c**Mix String//#93c0c9//#e1e590//#f0cad3**Mix Enamel//#f899c4//#46a6b3//#fac07b**Neon Yellow Mix//#d4ec64//#cb1f14//#213ba2**Aqua Mix//#0c4298//#21a8bd//#101323**Neon Pink Mix//#ff3c6a//#f4c412//#c80504**Purple Mix//#deb69d//#ffceb2//#e7ded5**White Enamel//#fff//#f3f3f3//rgba(0,0,0,0)**Navy Enamel//#6269ad//#6269ad//rgba(0,0,0,0)**Pink Mix String//#e7838e//#e18731//rgba(0,0,0,0)**Turquoise Mix String//#7fb8d6//#385aa4//rgba(0,0,0,0)**Black Mix String//#030303//#6b6b6b//rgba(0,0,0,0)**Natural Woven//#e7d7b1//#eadec0//rgba(0,0,0,0)**Neutral Mix//#deb69d//#ffceb2//#e7ded5**Emerald Crystal//#067864//#118d83//rgba(0,0,0,0)**Light Blue Mix//#b6cad0//#41bfb5//#394c66**Teal Mix//#62cfcf//#e2b8a5//rgba(0,0,0,0)**Blue MIx//#4c6188//#b5a4ac//rgba(0,0,0,0)**Mixed Neutrals//#d8a884//#e4d4d2//#c7cbcb**Coral Mix//#ebac8a//#d0cccf//#5f7293**White Pearl//#f0eae7//#fffeff//rgba(0,0,0,0) <span> **Gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**Silver//#c4c4c4//#e0e0e0//rgba(0,0,0,0)**Rose Gold//#d6b7a2//#f6d4bb//rgba(0,0,0,0)**Lapis//#0e3989//#3e66b0//rgba(0,0,0,0)**Howlite//#c3bebe//#f3ecec//rgba(0,0,0,0)**Labradorite//#8a8d6c//#ae9250//rgba(0,0,0,0)**Green Turquoise//#98e6be//#8bc8a9//rgba(0,0,0,0)**Garnet//#891212//#8e6464//rgba(0,0,0,0)**Amethyst//#a36ae0//#a87ab1//rgba(0,0,0,0)**Aquamarine//#9fdbdb//#c6e8e1//rgba(0,0,0,0)**Diamond//#e9e9e9//#fafafa//rgba(0,0,0,0)**Ruby//#b35656//#9a1313//rgba(0,0,0,0)**Peridot//#d2e3bf//#afc083//rgba(0,0,0,0)**Emerald//#4d7c21//#91a75a//rgba(0,0,0,0)**Pearl//#fafafa//#ededed//rgba(0,0,0,0)**Sapphire//#27316d//#2624b6//rgba(0,0,0,0)**Pink Tourmaline//#f8d0e0//#e1b2b7//rgba(0,0,0,0)**Blue Topaz//#3b73b6//#80a9db//rgba(0,0,0,0)**Citrine//#f7bf3d//#e5aa20//rgba(0,0,0,0)**Turquoise//#8bc8c3//#71dde1//rgba(0,0,0,0)**Rose Quartz//#eecfda//#fce2eb//rgba(0,0,0,0)**Black Onyx//#000000//#444343//rgba(0,0,0,0)**Pyrite//#9a8452//#c8ba98//rgba(0,0,0,0)**Apatite//#0582bb//#0b9590//rgba(0,0,0,0)**Russian Amazonite//#58950b//#98e6be//rgba(0,0,0,0)**Aventurine//#c6e89c//#a0c277//rgba(0,0,0,0)**Snowflake Obsidian//#ffffff//#000000//rgba(0,0,0,0)**Pink Jade//#e5178f//#ca2d70//rgba(0,0,0,0)**Smoky Quartz//#795339//#818181//rgba(0,0,0,0)**Pink Coral//#ff4b6e//#f77e13//rgba(0,0,0,0)**Orange Agate//#db4805//#d96f50//rgba(0,0,0,0)**White Opalite//#ffffff//#f3fce8//rgba(0,0,0,0)**White//#ffffff//#f3f3f3//rgba(0,0,0,0)**White CZ//#f0f0f0//#f4f8f7//rgba(0,0,0,0)**Black//#000000//#3f3838//rgba(0,0,0,0)**Rhodochrosite//#f5cccc//#e8dede//rgba(0,0,0,0)**Crystal Quartz//#f3f0f0//#ffffff//rgba(0,0,0,0)**Iolite//#ced3de//#597fac//rgba(0,0,0,0)**Blue Lace Agate//#c8e7ee//#ebebeb//rgba(0,0,0,0)**Pearlized Tan//#f5e9d6//#deb4b4//rgba(0,0,0,0)**Pearlized Blush//#eed2d2//#deb4b4//rgba(0,0,0,0)**Pearlized Grey//#979696//#9ebdc6//rgba(0,0,0,0)**Pearlized Black//#000000//#535353//rgba(0,0,0,0)**Pearlized Navy//#19217b//#424d6c//rgba(0,0,0,0)**Amazonite//#b6e3cc//#add5d9//rgba(0,0,0,0)**Malachite//#008a75//#0e695b//rgba(0,0,0,0)**Mother of Pearl//#f3cfbd//#fff1ea//rgba(0,0,0,0)**Violet//#8d34eb//#a87ab1//rgba(0,0,0,0)**Red//#e32c2b//#891212//rgba(0,0,0,0)**Orange//#ee7e41//#eb9a29//rgba(0,0,0,0)**Blue//#4cc2e6//#3196db//rgba(0,0,0,0)**Green//#129d6c//#13cd8c//rgba(0,0,0,0)**Yellow//#f2da19//#f7e234//rgba(0,0,0,0)**Indigo//#474d83//#464c83//rgba(0,0,0,0)**Teal//#4ecdc3//#0ce0f2//rgba(0,0,0,0)**Berry//#ee3e89//#c07b85//rgba(0,0,0,0)**Black Glass//#0a0808//#4e4949//rgba(0,0,0,0)**Opalite//#f3f2f2//#f0f0e0//rgba(0,0,0,0)**Black Enamel//#000000//#000000//rgba(0,0,0,0)**Ivory Pearlized Enamel//#eee6e6//#fff//rgba(0,0,0,0)**Black Labradorite//#322525//#aeaeae//rgba(0,0,0,0)**Mixed Crystal//#ff64c5//#60d7ed//rgba(0,0,0,0)**Iridescent Crystal//#eed4fa//#ffffff//rgba(0,0,0,0)**Montana Crystal / White CZ//#5f8bf2//#ffffff//rgba(0,0,0,0)**Mixed Crystal / White CZ//#f08ff2//#69bae6//rgba(0,0,0,0)**Fuschia Crystal//#f146f3//#f362f0//rgba(0,0,0,0)**Sapphire Crystal//#3457f5//#356cb9//rgba(0,0,0,0)**White CZ & Fuchsia/Navy Ombre Glass//#680b28//#0e3989//rgba(0,0,0,0)**Gratitude//#7c7d65//#1b40a3//#b5bfcf**Manifest//#989a84//#282d31//#e6e8e6**Serenity//#d2c8c7//#9880a2//#dcdedc**Serene//#d2c8c7//#9880a2//#dcdedc**Manifestation//#989a84//#282d31//#e6e8e6**All//#1b40a3//#282d31//#9880a2**Blush Mix Enamel//#e3c5bc//#c79ea3//rgba(0,0,0,0)**Teal Mix Enamel//#59a28f//#86c3e0//rgba(0,0,0,0)**Black Mix Enamel//#0a0a0a//#c1b4ad//rgba(0,0,0,0)**Blush Enamel//#c18f90//#c7a0a1//rgba(0,0,0,0)**Teal Enamel//#45b1d5//#50add3//rgba(0,0,0,0)**Black Picasso Jasper//#fff//#050505//rgba(0,0,0,0)**Green Turquoise//#98e6be//#8bc8a9//rgba(0,0,0,0)**London Blue Nanogem//#5f8fb6//#446c8c//rgba(0,0,0,0)**Blush Mixed String//#e3c5bc//#c79ea3//rgba(0,0,0,0)**Blue Mixed String//#59a28f//#86c3e0//rgba(0,0,0,0)**White CZ / London Blue Nanogem//#ffffff//#5f8bf2//rgba(0,0,0,0)**14k gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**18k gold//#c8b18b//#fce2b9//rgba(0,0,0,0)**14k rose gold//#d6b7a2//#f6d4bb//rgba(0,0,0,0)**Natural Agate//#e0c4a7//#fdefd2//rgba(0,0,0,0)**Opalite Glass//#d0c6c6//#f0eedf//rgba(0,0,0,0)**Mixed//#cacaca//#dec59e//#e8c2a5**Creme Enamel//#e8e5db//#e8e5db//rgba(0,0,0,0)**Pink Enamel//#f899bb//#fba8c3//rgba(0,0,0,0)**Turquoise Enamel//#6bc7d1//#92d4dd//rgba(0,0,0,0)**Orange Mix//#ff9c9f//#efd5c6//#eff19f**Pink Mix//#ede0de//#ecc8b4//#dd9570**Turquoise Mix//#36a6bf//#bace9c//#a8dbe6**Black Mix//#322c2c//#ffffff//#a2998c**Mix String//#93c0c9//#e1e590//#f0cad3**Mix Enamel//#f899c4//#46a6b3//#fac07b**Neon Yellow Mix//#d4ec64//#cb1f14//#213ba2**Aqua Mix//#0c4298//#21a8bd//#101323**Neon Pink Mix//#ff3c6a//#f4c412//#c80504**Purple Mix//#deb69d//#ffceb2//#e7ded5**White Enamel//#fff//#f3f3f3//rgba(0,0,0,0)**Navy Enamel//#6269ad//#6269ad//rgba(0,0,0,0)**Pink Mix String//#e7838e//#e18731//rgba(0,0,0,0)**Turquoise Mix String//#7fb8d6//#385aa4//rgba(0,0,0,0)**Black Mix String//#030303//#6b6b6b//rgba(0,0,0,0)**Natural Woven//#e7d7b1//#eadec0//rgba(0,0,0,0)**Neutral Mix//#deb69d//#ffceb2//#e7ded5**Emerald Crystal//#067864//#118d83//rgba(0,0,0,0)**Light Blue Mix//#b6cad0//#41bfb5//#394c66**Teal Mix//#62cfcf//#e2b8a5//rgba(0,0,0,0)**Blue MIx//#4c6188//#b5a4ac//rgba(0,0,0,0)**Mixed Neutrals//#d8a884//#e4d4d2//#c7cbcb**Coral Mix//#ebac8a//#d0cccf//#5f7293**White Pearl//#f0eae7//#fffeff//rgba(0,0,0,0) </span> <p> <span> Astrology </span> <br> Every sign has a story, and every story has a meaning.</p> <p> Reach for the stars in the Astrology collection</p> Filter <h4> Back to Shop</h4> <i> </i> <h2> Birthday Layering Sets</h2> <p> 1 Birthstone Coin Necklace + 1 Astrology Necklace = the perfect layer just for YOU (Buy the Set for only $120)</p> Create your birthday layer <h2> Complimentary Gift Wrap</h2> <p> Select gift wrap at checkout for an extra special touch - on us.</p> <h4> Follow Us on Instagram</h4> <h3> Get insider information about exclusive offers, events and more!</h3> Want our number? text gorjana to 57660 for first access to exclusives and more. <i> </i> Facebook <i> </i> Pinterest <i> </i> Instagram #livelovelayer <h6> Our Stores</h6> <h2> Laguna Beach</h2> <h3> 190 Beach St. Laguna Beach, CA</h3> Visit Us <h2> Fashion Island</h2> <h3> 265 Newport Center Dr. Newport Beach, CA</h3> Visit Us <h2> Irvine Spectrum</h2> <h3> 864 Spectrum Center Dr. Irvine, CA</h3> Visit Us <h2> Nolita</h2> <h3> 266 Elizabeth St. Nolita, NY</h3> Visit Us <h2> San Francisco</h2> <h3> 2056 Fillmore St.<br/> San Francisco, CA 94115</h3> Visit Us <h2> La Jolla UTC</h2> <h3> 4309 La Jolla Village Drive <br/> Space #2337<br/> San Diego, CA 92122</h3> Visit Us <h2> Venice</h2> <h3> 1639 Abbot Kinney Blvd. Venice Beach, CA</h3> Visit Us <h2> Century City</h2> <h3> 10250 Santa Monica Blvd. Century City, CA</h3> Visit Us <h2> West Village</h2> <h3> 298 W 4th St. West Village, NY</h3> Visit Us <h2> Americana at Brand</h2> <h3> 773 Americana Way, Suite E15 Glendale, CA 91210</h3> Visit Us <h2> Malibu</h2> <h3> 3900 Cross Creek Rd, Suite #4<br/> Malibu, CA 90265</h3> Visit Us <h2> Scottsdale</h2> <h3> 15125 N. Scottsdale Rd., Suite 130<br/> Scottsdale, AZ 85254</h3> Visit Us <h2> Long Beach</h2> <h3> 6440 East Pacific Coast Highway Space B-115<br/> Long Beach, CA 90803</h3> Visit Us <h2> Walnut Creek</h2> <h3> 135 Broadway Lane<br/> Suite 1114<br/> Walnut Creek, CA 94596</h3> Visit Us <h2> Brooklyn</h2> <h3> 138 N. 6th Street<br/> Brooklyn, NY 11249</h3> Visit Us <h2> San Jose</h2> <h3> Valley Fair<br/> 2855 Stevens Creek Blvd, Suite 1620, San Jose, CA 95050</h3> Visit Us <h2> Laguna Beach</h2> <h3> 190 Beach St. Laguna Beach, CA</h3> Visit Us <h2> Fashion Island</h2> <h3> 265 Newport Center Dr. Newport Beach, CA</h3> Visit Us <h2> Irvine Spectrum</h2> <h3> 864 Spectrum Center Dr. Irvine, CA</h3> Visit Us <h2> Nolita</h2> <h3> 266 Elizabeth St. Nolita, NY</h3> Visit Us <h2> San Francisco</h2> <h3> 2056 Fillmore St.<br/> San Francisco, CA 94115</h3> Visit Us <h2> La Jolla UTC</h2> <h3> 4309 La Jolla Village Drive <br/> Space #2337<br/> San Diego, CA 92122</h3> Visit Us <h2> Venice</h2> <h3> 1639 Abbot Kinney Blvd. Venice Beach, CA</h3> Visit Us <h2> Century City</h2> <h3> 10250 Santa Monica Blvd. Century City, CA</h3> Visit Us <h2> West Village</h2> <h3> 298 W 4th St. West Village, NY</h3> Visit Us <h2> Americana at Brand</h2> <h3> 773 Americana Way, Suite E15 Glendale, CA 91210</h3> Visit Us <h2> Malibu</h2> <h3> 3900 Cross Creek Rd, Suite #4<br/> Malibu, CA 90265</h3> Visit Us <h2> Scottsdale</h2> <h3> 15125 N. Scottsdale Rd., Suite 130<br/> Scottsdale, AZ 85254</h3> Visit Us <h2> Long Beach</h2> <h3> 6440 East Pacific Coast Highway Space B-115<br/> Long Beach, CA 90803</h3> Visit Us <h2> Walnut Creek</h2> <h3> 135 Broadway Lane<br/> Suite 1114<br/> Walnut Creek, CA 94596</h3> Visit Us <h2> Brooklyn</h2> <h3> 138 N. 6th Street<br/> Brooklyn, NY 11249</h3> Visit Us <h2> San Jose</h2> <h3> Valley Fair<br/> 2855 Stevens Creek Blvd, Suite 1620, San Jose, CA 95050</h3> Visit Us Shipping Returns Size Guide Care Guide Locations Wholesale Careers Privacy Policy Terms Contact Us <p> © 2020 Gorjana & Griffin, Inc. All rights reserved.</p> <h2> Did you know that your Internet Browser is out of date?</h2> X <p> Your browser is out of date, and may not be compatible with our website.</p> <p> You can update your browser from the link below.</p> Download the latest version of your prefered browser
+				</div>
+				<br class="clearfix" />
+			</div>
+			<div id="page-bottom">
+				National Highway 5, Krong Kampong Chhnang <br>
+juw.kh@gmail.com <br>
+088 224 4548, 088 667 8322, 088 525 9164
+			</div>
+		</div>
+	</span>
+	</body>
+</html>
